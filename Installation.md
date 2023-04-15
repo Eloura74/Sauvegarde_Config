@@ -16,7 +16,7 @@ Dans ce Github nous allons voir en 4 étape comment créer une sauvegarde automa
 
 Étape 1 : Création d'un dépôt GitHub
 
-Étape 2 : Clonage du dépôt GitHub
+Étape 2 : [Clonage du dépôt GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Clonage_Github.md)
 
 Étape 3 : Ajout et sauvegarde de la configuration Klipper
 
