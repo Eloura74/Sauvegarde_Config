@@ -1,3 +1,5 @@
+![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
+
 # Tutoriel pour sauvegarder la configuration Klipper sur GitHub
 
 Ce tutoriel vous guidera à travers les étapes pour sauvegarder la configuration de Klipper, un micrologiciel pour les imprimantes 3D, sur GitHub. Cela vous permettra de conserver une copie de sauvegarde de votre configuration et de partager facilement avec d'autres personnes.
@@ -7,7 +9,17 @@ Ce tutoriel vous guidera à travers les étapes pour sauvegarder la configuratio
 Avant de commencer, assurez-vous d'avoir les éléments suivants :
 
 - Un compte GitHub (https://github.com/) pour stocker la configuration de Klipper en ligne.
-- Un dépôt Klipper local sur votre ordinateur avec votre configuration actuelle.
+- Un dépôt Klipper local sur votre raspberry avec votre configuration actuelle.
+- Une configuration Klipper à jour.
+
+Dans ce Github nous allons voir en 4 étape comment créer une sauvegarde automatique de votre configuration sur github.
+
+Étape 1 : Création d'un dépôt GitHub
+Étape 2 : Clonage du dépôt GitHub
+Étape 3 : Ajout et sauvegarde de la configuration Klipper
+Étape 4 : Vérification de la sauvegarde sur GitHub
+
+![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
 
 ## Étape 1 : Création d'un dépôt GitHub
 
@@ -15,11 +27,15 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 2. Donnez un nom à votre dépôt et choisissez les options de visibilité et d'initialisation selon vos préférences.
 3. Cliquez sur le bouton "Create repository" pour créer le dépôt GitHub.
 
+![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
+
 ## Étape 2 : Clonage du dépôt GitHub
 
 1. Copiez l'URL du dépôt GitHub que vous venez de créer.
 2. Ouvrez un terminal sur votre ordinateur et utilisez la commande `git clone <URL_DU_DEPOT_GITHUB>` pour cloner le dépôt GitHub localement sur votre ordinateur.
 3. Naviguez dans le répertoire du dépôt local en utilisant la commande `cd <NOM_DU_DEPOT_LOCAL>`.
+
+![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
 
 ## Étape 3 : Ajout et sauvegarde de la configuration Klipper
 
@@ -27,6 +43,8 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 2. Utilisez la commande `git add .` pour ajouter les fichiers à la zone de préparation pour le commit.
 3. Utilisez la commande `git commit -m "Sauvegarde de la configuration"` pour valider les modifications avec un message de commit.
 4. Utilisez la commande `git push origin master` pour envoyer les modifications vers la branche principale (master) du dépôt GitHub.
+
+![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
 
 ## Étape 4 : Vérification de la sauvegarde sur GitHub
 
