@@ -1,2 +1,2 @@
 # Sauvegarde_Config
-Sauvegarder la config sur qithub avec une macro simple
+Sauvegarder la config sur Github avec une installation simple
