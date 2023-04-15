@@ -21,4 +21,4 @@ git commit -m "Sauvegarde de la configuration"
 git push origin master
 ```
 
-On va simplement accéder à la vérification de la sauvegarde sur GitHub. https://github.com/Eloura74/Sauvegarde_Config/blob/main/V%C3%A9rification.md
+On va simplement accéder à la vérification de la sauvegarde sur [GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/V%C3%A9rification.md). 
