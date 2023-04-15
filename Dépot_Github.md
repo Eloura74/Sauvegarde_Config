@@ -14,4 +14,4 @@
 
 5. Cliquez sur le bouton "Create repository" pour créer le dépôt GitHub.
 
-Maintenant on passe au Clonage du dépôt GitHub
+Maintenant on passe au Clonage du dépôt GitHub: https://github.com/Eloura74/Sauvegarde_Config/blob/main/Clonage_Github.md
