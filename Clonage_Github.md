@@ -19,3 +19,5 @@ git clone <URL_DU_DEPOT_GITHUB>
 cd <NOM_DU_DEPOT_LOCAL>
 ```
 
+https://github.com/Eloura74/Sauvegarde_Config/blob/main/Conf_Klipper.md
+
