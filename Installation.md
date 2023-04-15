@@ -15,8 +15,11 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 Dans ce Github nous allons voir en 4 étape comment créer une sauvegarde automatique de votre configuration sur github.
 
 Étape 1 : Création d'un dépôt GitHub
+
 Étape 2 : Clonage du dépôt GitHub
+
 Étape 3 : Ajout et sauvegarde de la configuration Klipper
-Étape 4 : Vérification de la sauvegarde sur GitHub
+
+Étape 4 : Vérification de la sauvegarde sur [GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/V%C3%A9rification.md). 
 
 
