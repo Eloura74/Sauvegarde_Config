@@ -6,14 +6,14 @@
 
 ![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Parie2.png)
 
-2. Ouvrez un terminal sur votre ordinateur et utilisez la commande pour cloner le dépôt GitHub localement sur votre ordinateur.
+2. Ouvrez un terminal sur votre ordinateur et utilisez la commande pour cloner le dépôt GitHub localement sur votre ordinateur :
 
 
 ```
 git clone <URL_DU_DEPOT_GITHUB>
 ```
 
-3. Naviguez dans le répertoire du dépôt local en utilisant la commande 
+3. Naviguez dans le répertoire du dépôt local en utilisant la commande :
 
 ```
 cd <NOM_DU_DEPOT_LOCAL>
