@@ -33,7 +33,7 @@ Cocher les option suivante:
 <br> <br>
 -workflow
 <br> <br>
-read:org
+-read:org
 <br> <br>
 Tout en bas vous pouvez cliquer sur "Generate Token".
 <br> <br>
