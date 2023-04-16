@@ -6,14 +6,41 @@
 
 ![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Parie2.png)
 
-2. Ouvrez un terminal sur votre ordinateur et utilisez la commande pour cloner le dépôt GitHub localement sur votre ordinateur :
+2. Ouvrez un terminal sur votre ordinateur et utilisez la commande pour cloner le dépôt GitHub localement sur votre Raspberry :
 
 
 ```
 git clone <URL_DU_DEPOT_GITHUB>
 ```
 
-3. Naviguez dans le répertoire du dépôt local en utilisant la commande :
+3. Nous allons générer un jeton d'accès:
+<br> 
+Acceder à ["Personnal Acces Tokens"](https://github.com/settings/tokens).
+<br>
+Sur le côté gauche, assurez vous que vous avez sélectionné "Token Classic".
+<br>
+Aller ensuite dans "Generate new token" et sélectionner l'option "Classic".
+<br> 
+Il vous sera peut être demander de vous identifier par mesure de sécurité.
+<br>
+Dans "Note" vous allez donner un nom a votre jeton d'acceès.
+<br>
+Et dans "Expiration" sélectionner bien "No expiration".
+<br>
+Cocher les option suivante:
+<br>
+-repo (d'origine cocher)
+<br>
+-workflow
+<br>
+read:org
+<br>
+Tout en bas vous pouvez cliquer sur "Generate Token".
+<br>
+Attention la clé générée sera unique, et c'est votre chance de la voir, vous devez bien la conservée.
+<br>
+
+4. Naviguez dans le répertoire du dépôt local en utilisant la commande :
 
 ```
 cd <NOM_DU_DEPOT_LOCAL>
