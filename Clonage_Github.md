@@ -14,31 +14,31 @@ git clone <URL_DU_DEPOT_GITHUB>
 ```
 
 3. Nous allons générer un jeton d'accès:
-<br> 
+<br> <br>
 Acceder à ["Personnal Acces Tokens"](https://github.com/settings/tokens).
-<br>
+<br> <br>
 Sur le côté gauche, assurez vous que vous avez sélectionné "Token Classic".
-<br>
+<br> <br>
 Aller ensuite dans "Generate new token" et sélectionner l'option "Classic".
-<br> 
+<br> <br>
 Il vous sera peut être demander de vous identifier par mesure de sécurité.
-<br>
+<br> <br>
 Dans "Note" vous allez donner un nom a votre jeton d'acceès.
-<br>
+<br> <br>
 Et dans "Expiration" sélectionner bien "No expiration".
-<br>
+<br> <br>
 Cocher les option suivante:
-<br>
+<br> <br>
 -repo (d'origine cocher)
-<br>
+<br> <br>
 -workflow
-<br>
+<br> <br>
 read:org
-<br>
+<br> <br>
 Tout en bas vous pouvez cliquer sur "Generate Token".
-<br>
+<br> <br>
 Attention la clé générée sera unique, et c'est votre chance de la voir, vous devez bien la conservée.
-<br>
+<br> <br> <br>
 
 4. Naviguez dans le répertoire du dépôt local en utilisant la commande :
 
