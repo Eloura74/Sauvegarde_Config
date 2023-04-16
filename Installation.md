@@ -12,7 +12,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 - Un dépôt Klipper local sur votre raspberry avec votre configuration actuelle.
 - Une configuration Klipper à jour.
 
-Dans ce Github nous allons voir en 4 étape comment créer une sauvegarde automatique de votre configuration sur github.
+Dans ce Github nous allons voir en 4 étapes comment créer une sauvegarde automatique de votre configuration sur github.
 
 [Étape 1 : Création d'un dépôt GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/D%C3%A9pot_Github.md)
 
