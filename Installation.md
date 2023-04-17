@@ -20,6 +20,6 @@ Dans ce Github nous allons voir en 4 étapes comment créer une sauvegarde autom
 
 [Étape 3 : Ajout et sauvegarde de la configuration Klipper](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Conf_Klipper.md)
 
-[Étape 4 : Vérification de la sauvegarde sur GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/V%C3%A9rification.md). 
+[Étape 4 : Création de la Macro pour Klipper](https://github.com/Eloura74/Sauvegarde_Config/edit/main/Macro.md). 
 
 
