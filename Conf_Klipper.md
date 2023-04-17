@@ -41,8 +41,40 @@ chmod +x autocommit.sh
 ```
 ls -la autocommit.sh
 ```
+Si vous voyer le "X" cela à fonctionné.
+<br>
+ Il s'agit de l'autorisation d'exécution que nous avons ajoutée.
+
+[image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/chmodDone.png)
+
+9. On va devoir initialiser Git:
+<br>
+Exécutez la commande suivante:
+
+```
+git init
+```
+
+10. Entrez ce qui suit en prenant soin de bien remplacer https://ghp....... par votre nouvel URL  précédement crée:
+
+```
+ git remote add origin https://ghp_dKXXXXXXXXXXXXXXXXXXXXXXXX@github.com/votreidentifiant/Backup.git
+
+```
+
+11. Identifiez vous avec ceci:
+
+```
+git config --global user.email "your@email.com"
+git config --global user.name "your name"
+```
+
+12. Voila maintenant tester si cela fonctionne avec ceci:
+
+```
+sh autocommit.sh
+```
+Vérifier depuis Github que votre referentiel est bel est bien modifié.
 
 
-
-
-On va simplement accéder à la vérification de la sauvegarde sur [GitHub](https://github.com/Eloura74/Sauvegarde_Config/blob/main/V%C3%A9rification.md). 
+13. Allons mettre la [macro](https://github.com/Eloura74/Sauvegarde_Config/edit/main/V%C3%A9rification.md) dans Klipper maintenant.
