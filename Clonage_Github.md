@@ -46,4 +46,28 @@ Attention la clé générée sera unique, et c'est votre chance de la voir, vous
 cd <NOM_DU_DEPOT_LOCAL>
 ```
 
+Nous allos reprendres les deux élément: 
+<br>
+-URL de votre répertoire: https://github.com/votreidentifiant/Backup.git
+<br>
+-Jeton d'acces:ghp_dKXXXXXXXXXXXXXXXXXXXXXXXX (unique)
+<br>
+Il va falloir mettre le jeton dans l'URL comme ceci:
+<br>
+
+```
+https:Jeton//github.com/votreidentifiant/Backup.git
+```
+Cela devrait ressembler à ceci:
+<br>
+```
+https:ghp_dKXXXXXXXXXXXXXXXXXXXXXXXX//github.com/votreidentifiant/Backup.git
+```
+
+Vous devez copier votre nouvelle URL. On va s'en servir par la suite.
+<br>
+**Attention: ** 
+<br>
+Ne jamais mettre le Jeton dans un fichier github. Par sécurité Github vous indiquera une erreure.
+
 Passons ensuite à la configuration de [Klipper](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Conf_Klipper.md)
