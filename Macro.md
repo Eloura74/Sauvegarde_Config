@@ -1,9 +1,32 @@
 ![image](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Image/Installation.webp)
 
-## Étape 4 : Vérification de la sauvegarde sur GitHub
+## Étape 4 : Ajout de la Macro dans klipper:
 
-1. Accédez à la page du dépôt sur GitHub (https://github.com/<VOTRE_NOM_UTILISATEUR>/<NOM_DU_DEPOT>) dans votre navigateur web.
-2. Vérifiez que les fichiers de configuration de Klipper sont présents dans le dépôt.
+1. Aller dans votre printer.cfg, ou alors là ou vous mettez vos macros:
+2. Ajouter celles-ci:
+
+```
+ [gcode_shell_command backup_cfg]
+ command: /usr/bin/bash /home/pi/printer_data/config/autocommit.sh
+ timeout: 30
+ verbose: True
+
+ [gcode_macro BACKUP_CFG]
+ description: Backs up config directory GitHub
+ gcode:
+     RUN_SHELL_COMMAND CMD=backup_cfg
+```
+3. Mettez a jours commande shell avec ceci:
+
+```
+ wget -O /home/pi/klipper/klippy/extras/gcode_shell_command.py https://raw.githubusercontent.com/th33xitus/kiauh/master/resources/gcode_shell_command.py
+```
+
+Ou alors avec Kiauh en allant dans:
+<br>
+Option (4)
+<br>
+
 
 Félicitations ! Vous avez maintenant sauvegardé votre configuration Klipper sur GitHub. Vous pouvez accéder à cette sauvegarde à tout moment à partir de n'importe quel appareil connecté à Internet et la partager avec d'autres personnes si vous le souhaitez.
 
