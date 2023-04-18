@@ -77,4 +77,4 @@ sh autocommit.sh
 Vérifier depuis Github que votre referentiel est bel est bien modifié.
 
 
-13. Allons mettre la [macro](https://github.com/Eloura74/Sauvegarde_Config/edit/main/Macro.md) dans Klipper maintenant.
+13. Allons mettre la [macro](https://github.com/Eloura74/Sauvegarde_Config/blob/main/Macro.md) dans Klipper maintenant.
