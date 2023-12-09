@@ -61,7 +61,7 @@ https:Jeton@github.com/votreidentifiant/Backup.git
 Cela devrait ressembler à ceci:
 <br>
 ```
-https:ghp_dKXXXXXXXXXXXXXXXXXXXXXXXX@github.com/votreidentifiant/Backup.git
+https://ghp_dKXXXXXXXXXXXXXXXXXXXXXXXX@github.com/votreidentifiant/Backup.git
 ```
 
 Vous devez copier votre nouvelle URL. On va s'en servir par la suite.
