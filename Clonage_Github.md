@@ -56,7 +56,7 @@ Il va falloir mettre le jeton dans l'URL comme ceci:
 <br>
 
 ```
-https:Jeton@github.com/votreidentifiant/Backup.git
+https://Jeton@github.com/votreidentifiant/Backup.git
 ```
 Cela devrait ressembler à ceci:
 <br>
